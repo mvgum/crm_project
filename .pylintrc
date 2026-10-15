@@ -1,0 +1,28 @@
+[MAIN]
+load-plugins=pylint_django
+django-settings-module=crm_project.settings
+ignore-paths=.*/migrations/*,.*/settings.py,.*/manage.py,.*/apps.py
+
+[MESSAGES CONTROL]
+disable=raw-checker-failed,
+        bad-inline-option,
+        locally-disabled,
+        file-ignored,
+        suppressed-message,
+        useless-suppression,
+        deprecated-pragma,
+        use-implicit-booleaness-not-comparison-to-string,
+        use-implicit-booleaness-not-comparison-to-zero,
+        use-symbolic-message-instead,
+        missing-module-docstring,
+        too-many-ancestors,
+        missing-class-docstring,
+        too-few-public-methods,
+        invalid-str-returned,
+        no-member,
+        unused-argument,
+        trailing-newlines,
+        duplicate-code
+
+[FORMAT]
+max-line-length=120
